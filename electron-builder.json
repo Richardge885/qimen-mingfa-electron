@@ -1,0 +1,16 @@
+{
+    "appId": "com.richardge.QiMenMingFa",
+    "files": ["dist-electron", "dist-react"],
+    "extraResources": ["dist-electron/preload.cjs", "src/assets/**"],
+    "icon": "./icon-curved.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'kaiti';
+        src: url('./assets/KaiTi.woff2');
+    }
+    @font-face {
+        font-family: 'lishu';
+        src: url('./assets/LiShuZiTi.ttf');
+    }
+}
+
+* {
+    font-family: kaiti;
+    color: '#362420';
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
